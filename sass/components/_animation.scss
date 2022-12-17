@@ -1,9 +1,10 @@
 .animation__container {
+    margin: 0 auto;
+
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
 
     height: 500px;
     position: relative;
@@ -11,14 +12,14 @@
    
     background-color: aquamarine;
     outline: 2px solid black;
-    z-index: 1;
 
     &__slide {
+        margin: 0;
         display: flex;
-        flex-wrap: wrap;
+
         position: absolute;
         top: 0;
-        left: 0;
+        left: 50%;
         width: 1013px;
         height: 422px;
         outline: 2px solid greenyellow;
@@ -27,6 +28,7 @@
         overflow: hidden;
 
     &__slide:nth-child(1) {
+        overflow: hidden;
         z-index: 1;
         opacity: 1;
         }

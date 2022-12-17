@@ -1,4 +1,5 @@
 .animation__container {
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,22 +11,19 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 auto;
   height: 500px;
   position: relative;
   background-color: aquamarine;
   outline: 2px solid black;
-  z-index: 1;
 }
 .animation__container__slide {
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
   width: 1013px;
   height: 422px;
   outline: 2px solid greenyellow;
@@ -34,6 +32,7 @@
   overflow: hidden;
 }
 .animation__container__slide__slide:nth-child(1) {
+  overflow: hidden;
   z-index: 1;
   opacity: 1;
 }
