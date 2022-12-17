@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <header>Logo</header>
+    <main>
+        <div class="animation__container">
+                <div class="animation__slide">
+                    <img class="animation__card"
+                    srcset="
+                    ./images/gallery-main_1013.jpg 1013w,
+                    ./images/gallery-main_2026.jpg 2026w
+                    "
+                    sizes="(min-width: 1200px) 1013px"
+                    src="./images/gallery-main_1013.jpg" 
+                    alt="ice card 1">
+                </div>
+                <div class="animation__slide">
+                    <img class="animation__card"
+                    srcset="
+                    ./images/ice-gallery-changed_1013.jpg 1013w,
+                    ./images/ice-gallery-changed_2026.jpg 2026w
+                    "
+                    sizes="(min-width: 1200px) 1013px"
+                    src="./images/ice-gallery-changed_1013.jpg" 
+                    alt="ice card 2">
+                </div>
+                <div class="animation__slide">
+                    <img class="animation__card"
+                    srcset="
+                    ./images/changed_1013.jpg 1013w,
+                    ./images/changed_2026.jpg 2026w
+                    "
+                    sizes="(min-width: 1200px) 1013px"
+                    src="./images/changed_1013.jpg" 
+                    alt="ice card 3">
+                </div>
+            </div>
+    </main>
+<footer></footer>
+</body>
+</html>
